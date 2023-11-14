@@ -1,19 +1,19 @@
 // let canvas = document.querySelector("canvas");
 // let cxt = canvas.getContext('2d');
 //
-// cxt.fillStyle("red");
+// cxt.fillStyle = "red";
 // cxt.fillRect(50,50,100,100);
 //
-// cxt.strokeStyle("green");
+// cxt.strokeStyle = "green";
 // cxt.strokeRect(250,50,100,100);
 //
-// cxt.strokeStyle("red");
-// cxt.fillStyle("blue");
+// cxt.strokeStyle= "red";
+// cxt.fillStyle = "blue";
 // cxt.rect(50,250,100,100);
 // cxt.fill();
 // cxt.stroke();
 //
-// cxt.fillStyle("#7733ff");
+// cxt.fillStyle = "#7733ff";
 // cxt.beginPath();
 // cxt.arc(300,300,50,0,Math.PI * 2,true);
 // cxt.closePath();
@@ -24,12 +24,12 @@
 // let canvas = document.querySelector("canvas");
 // let cxt = canvas.getContext("2d");
 //
-// cxt.strokeStyle("red");
-// cxt.fillStyle="#00ff00ee";
+// cxt.strokeStyle = "red";
+// cxt.fillStyle= "#00ff00ee";
 //
 // setInterval(() => {
 //
-//     const xPos = 150 + Math.sin(Date.how()/ 1000) * 100;
+//     const xPos = 150 + Math.sin(Date.now()/ 1000) * 100;
 //
 //     cxt.beginPath();
 //     cxt.rect(xPos,50,100,100);
@@ -42,7 +42,7 @@
 // let canvas = document.querySelector("canvas");
 // let cxt = canvas.getContext("2d");
 //
-// cxt.strokeStyle("red");
+// cxt.strokeStyle = "red";
 // cxt.fillStyle = "#00ff00ee";
 //
 // setInterval(() => {
@@ -95,21 +95,21 @@
 
 
 
-let canvas = document.querySelector("canvas");
-let cxt = canvas.getContext("2d");
-cxt.beginPath();
-cxt.fillStyle = "green";
-
-for (let i = 2; i<=12; i++){
-    cxt.moveTo(15,15 * i);
-    cxt.lineTo(195,15 *i);
-}
-
-for (let i = 2; i<=12; i++) {
-    cxt.moveTo(15 * i, 15);
-    cxt.lineTo(15 * i, 195);
-}
-
-cxt.stroke();
+// let canvas = document.querySelector("canvas");
+// let cxt = canvas.getContext("2d");
+// cxt.beginPath();
+// cxt.fillStyle = "green";
+//
+// for (let i = 2; i<=12; i++){
+//     cxt.moveTo(15,15 * i);
+//     cxt.lineTo(195,15 *i);
+// }
+//
+// for (let i = 2; i<=12; i++) {
+//     cxt.moveTo(15 * i, 15);
+//     cxt.lineTo(15 * i, 195);
+// }
+//
+// cxt.stroke();
 
 
